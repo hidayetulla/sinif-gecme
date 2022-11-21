@@ -39,7 +39,14 @@ public class pratik8{
         }
 
         avrage = toplam/sayac;
+        
+        if(avrage >= 55){
 
-        System.out.println("ortalama:" + avrage);
+            System.out.println("tebrikler ! gectiniz . \n ortalamaniz:" + avrage);
+        }else{
+            System.out.println("gecmis olsun . sinifta kaldiniz !\nortalama:" + avrage);
+        }
+
+       
     }
 }
